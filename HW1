@@ -1,0 +1,81 @@
+import org.testng.annotations.Test;
+
+public class Class1 {
+
+    @Test
+    public void test00001() {
+
+        System.out.println("Homer Simpson is awesome");
+
+    }
+
+    @Test
+    public void test00002() {
+
+        int myNumber;
+        myNumber = 5;
+        System.out.println(myNumber);
+    }
+
+    @Test
+    public void test00003() {
+
+        String messageOne = new String("Who let the dogs out?");
+
+        String messageTwo = " Who who who who!";
+
+        String s3 = messageOne + messageTwo;
+
+        System.out.println(s3);
+
+
+    }
+
+    @Test
+    public void test00004() {
+        int num = 5;
+        String message = "I have " + num + " cookies";
+        System.out.println(message);
+    }
+
+    @Test
+    public void test00005() {
+
+
+        boolean toBe = false;
+
+        boolean b = toBe || !toBe;
+        if (b) {
+            System.out.println(toBe);
+        }
+
+    }
+
+
+    @Test
+    public void test00006() {
+
+        int a = 4;
+        int b = 4;
+
+        if (a == b) {
+            System.out.println("Ohhh! So a is " + b + "!");
+        } else {
+            System.out.println(a + " IS NOT EQUEL " + b);
+        }
+
+    }
+
+    @Test
+    public void test00007() {
+
+        int[] arrayofIntegers = {1, 9, 9, 5};
+
+
+        for (int i = 0; i < arrayofIntegers.length; i++) {
+            int currentElement = arrayofIntegers[i];
+            System.out.println(currentElement);
+        }
+    }
+}
+
